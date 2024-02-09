@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="?attr/colorOnSecondary"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/avatar"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="15dp"
+            tools:src="@tools:sample/backgrounds/scenic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:fontFamily="@font/rubik_reguler"
+            android:text="Good evening, Ivy"
+            android:textColor="?attr/colorSecondary"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="15dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#4D4117"
+                    app:cardCornerRadius="50dp"
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="5"
+                        android:textColor="@color/white"
+                        android:textSize="13sp" />
+                </com.google.android.material.card.MaterialCardView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/rubik_reguler"
+                    android:gravity="center"
+                    android:text="Thur"
+                    android:textColor="#4D4117"
+                    android:textSize="11sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="13dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.card.MaterialCardView
+                    style="@style/CustomMaterialCardView"
+                    app:cardCornerRadius="50dp">
+
+                    <TextView
+                        style="@style/CustomTextView"
+                        android:text="6" />
+                </com.google.android.material.card.MaterialCardView>
+
+                <TextView
+                    style="@style/CustomTextViewName"
+                    android:text="Fri" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="13dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.card.MaterialCardView
+                    style="@style/CustomMaterialCardView"
+                    app:cardCornerRadius="50dp">
+
+                    <TextView
+                        style="@style/CustomTextView"
+                        android:text="7" />
+                </com.google.android.material.card.MaterialCardView>
+
+                <TextView
+                    style="@style/CustomTextViewName"
+                    android:text="Sat" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="13dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:backgroundTint="?attr/colorPrimary"
+                    app:cardCornerRadius="50dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/rubik_reguler"
+                        android:gravity="center"
+                        android:text="8"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+                </com.google.android.material.card.MaterialCardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="12dp"
+
+                    android:fontFamily="@font/rubik_reguler"
+
+                    android:gravity="center"
+                    android:text="Sun"
+
+                    android:textColor="?attr/colorPrimary"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="13dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.card.MaterialCardView
+                    style="@style/CustomMaterialCardView"
+                    app:cardCornerRadius="50dp">
+
+                    <TextView
+                        style="@style/CustomTextView"
+                        android:text="9" />
+                </com.google.android.material.card.MaterialCardView>
+
+                <TextView
+                    style="@style/CustomTextViewName"
+                    android:text="Mon" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="32dp"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="13dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.card.MaterialCardView
+                    style="@style/CustomMaterialCardView"
+                    app:cardCornerRadius="50dp">
+
+                    <TextView
+                        style="@style/CustomTextView"
+                        android:text="10" />
+                </com.google.android.material.card.MaterialCardView>
+
+                <TextView
+                    style="@style/CustomTextViewName"
+                    android:text="Thues" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+
+                android:layout_height="match_parent"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.card.MaterialCardView
+                    style="@style/CustomMaterialCardView"
+                    app:cardCornerRadius="50dp">
+
+                    <TextView
+                        style="@style/CustomTextView"
+                        android:text="11" />
+                </com.google.android.material.card.MaterialCardView>
+
+                <TextView
+                    style="@style/CustomTextViewName"
+                    android:text="Wed" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_bg"
+            android:drawableStart="@drawable/baseline_search_24"
+            android:drawablePadding="12dp"
+            android:hint="Search"
+            android:padding="13dp"
+            android:textColorHint="#80000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="15dp"
+            android:textColor="?attr/colorSecondary"
+            android:fontFamily="@font/rubik_bold"
+            android:text="Today’s tasks"
+            android:textSize="20sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/task"
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:orientation="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/item_task" />
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/fab_bg"
+                android:backgroundTint="?attr/colorPrimary"
+                android:src="@drawable/baseline_add_24"
+                app:circularflow_radiusInDP="100"
+                app:layout_constraintBottom_toTopOf="@id/bottom_navigation"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/bottom_navigation"
+                app:tint="@color/white" />
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottom_navigation"
+
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/edit_bg"
+                app:itemIconTint="@color/black"
+
+                app:labelVisibilityMode="unlabeled"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:menu="@menu/menu" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
